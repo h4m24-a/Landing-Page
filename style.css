@@ -4,8 +4,33 @@
   padding: 0;
 }
 
-.navbar {
-  background: #3474e6;
-  color: #fff;
-  height: 28rem;
-}
+.header {
+    background: #1f2937;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display:flex;
+    padding: 10px;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    
+    
+  }
+  
+  .links {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+  }
+  
