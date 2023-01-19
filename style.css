@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 /* Nav Bar */
 ul {
@@ -17,7 +16,6 @@ ul {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
-  border: solid 5px hotpink;
 }
 
 .navbar {
@@ -36,6 +34,7 @@ ul {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
   font-family: "Poppins", Helvetica, sans-serif;
 }
 
@@ -58,6 +57,12 @@ ul {
   margin-left: 20px;
 }
 
+img {
+  max-width: 100%;
+}
+
+
+
 /* Hero section */
 
 .header {
@@ -75,7 +80,24 @@ ul {
 
 .header p {
   font-size: 18px;
+  font-family: "Arial", Geneva, Tahoma, sans-serif;
 }
+
+.header img {
+  max-width: 400px;
+}
+
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -83,19 +105,19 @@ ul {
 .signup {
   background: #3882f6;
   border: 1px solid #3882f6;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: cursive;
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
   font-weight: 100;
   line-height: 16px;
   min-height: 30px;
   outline: 0;
-  margin: 20px 0;
+  margin: 30px 0;
   padding: 10px 35px;
   text-align: center;
   text-rendering: geometricprecision;
