@@ -7,11 +7,10 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;  
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-
-  /* Nav Bar */
+/* Nav Bar */
 ul {
   list-style-type: none;
 }
@@ -20,22 +19,19 @@ ul {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
-  
 }
 
 .navbar {
   background: #1f2937;
   color: #fff;
-  height: 60px;
+  height: 70px;
   border: solid 5px yellow;
- 
 }
 
 .logo {
   font-size: x-large;
   font-weight: bold;
   border: solid 5px black;
-
 }
 
 .navbar a {
@@ -59,27 +55,64 @@ ul {
 .navbar ul {
   display: flex;
   border: solid 5px red;
-  
 }
 
 .navbar ul li {
   margin-left: 20px;
   border: solid 5px green;
- 
 }
-
 
 /* Hero section */
 
 .header {
-  background-color: #0151cc;
+  background-color: #1f2937;
   color: #fff;
-  min-height: 400px;
+  min-height: 500px;
   border: solid 5px hotpink;
 }
 
 .header h1 {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.5;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+
+/* Sign-up Button */
+.signup {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    margin: 20px 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .signup:hover,
+  .signup:active {
+    background-color: initial;
+    background-position: 0 0;
+    
+  }
+  
+  .signup:active {
+    opacity: .5;
   }
