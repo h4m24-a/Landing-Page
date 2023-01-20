@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  line-height: 1.5;
 }
 
 /* Nav Bar */
@@ -148,7 +153,13 @@ h1 {
     min-height: 200px;
   }
 
-  
+  .quote h2 {
+   padding: 50px;
+   font-size: 36px;
+   color: #1f2937;
+   font-style: italic;
+   font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
+  }
   
 
 
