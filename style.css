@@ -107,7 +107,7 @@ h1 {
 
 .boxes {
     background-color: #ffff;
-    min-height: 350px;
+    min-height: 300px;
 }
 
 
@@ -140,7 +140,21 @@ h1 {
     line-height: 1.5;
     color: #ffff;
   }
+
+
+  /* Quote Section */
+  .quote {
+    background-color: #e5e7eb;
+    min-height: 200px;
+  }
+
   
+  
+
+
+
+
+
 
 
 
