@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 * {
   box-sizing: border-box;
@@ -107,14 +107,12 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
-
 /* Box section */
 
 .boxes {
-    background-color: #ffff;
-    min-height: 350px;
+  background-color: #ffff;
+  min-height: 350px;
 }
-
 
 .boxes .container {
   display: flex;
@@ -140,49 +138,64 @@ h1 {
 }
 
 .box h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #ffff;
-  }
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffff;
+}
 
+/* Quote Section */
 
-  /* Quote Section */
+.quote .container {
+  display: flex;
+}
 
-  .quote .container {
+.quote {
+  background-color: #e5e7eb;
+  min-height: 500px;
+}
+
+.quote h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
+  margin: 150px 0 10px 0;
+}
+
+.quotetext {
+  text-align: right;
+  color: #1f2937;
+  font-style: italic;
+  font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  margin: 0 70px 0px 0;
+}
+
+/* Sign-up banner section */
+  .banner .container {
     display: flex;
+    border: solid 3px yellow;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+
+  .banner h1 {
+   
   }
 
 
-  .quote {
-    background-color: #e5e7eb;
-    min-height: 500px;
-  }
-
-  .quote h2 {
-   font-size: 36px;
-   color: #1f2937;
-   font-style: italic;
-   font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
-   margin: 150px 0 10px 0;
+  .banner p {
+    
   }
 
 
-  .quotetext{
-    text-align: right;
-    color: #1f2937;
-    font-style: italic;
-    font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    margin: 0 70px 0px 0;
-  }
+
+
+
   
 
-
-
-
-
-
+  
 
 
 /* Sign-up Button */
