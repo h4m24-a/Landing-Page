@@ -156,7 +156,7 @@ h1 {
 
   .quote {
     background-color: #e5e7eb;
-    min-height: 450px
+    min-height: 500px;
   }
 
   .quote h2 {
@@ -164,7 +164,7 @@ h1 {
    color: #1f2937;
    font-style: italic;
    font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
-   margin: 100px 0 20px 0;
+   margin: 150px 0 10px 0;
   }
 
 
@@ -174,9 +174,10 @@ h1 {
     font-style: italic;
     font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
     font-size: 28px;
+    margin: 0 70px 0px 0;
   }
   
-  
+
 
 
 
