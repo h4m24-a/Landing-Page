@@ -177,16 +177,31 @@ h1 {
     display: flex;
     border: solid 3px yellow;
     justify-content: space-evenly;
+    background-color: #3882f6;
     border-radius: 10px;
   }
 
-  .banner h1 {
+  .banner {
+    border: solid 3px black;
+  }
+
+  .banner h2 {
+    color: #000000c2;
+    font-size: 18px;
+    font-family: "Poppins", Geneva, Tahoma, sans-serif;
+    border: solid 3px red;
    
   }
 
 
   .banner p {
-    
+    border: solid 3px white;
+    font-size: 16px;
+    font-family: "Poppins", Geneva, Tahoma, sans-serif;
+  }
+
+  .signup2 {
+    border: solid 3px hotpink;
   }
 
 
