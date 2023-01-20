@@ -72,7 +72,7 @@ img {
 .header {
   background-color: #1f2937;
   color: #fff;
-  min-height: 500px;
+  min-height: 450px;
 }
 
 .header h1 {
@@ -112,7 +112,7 @@ h1 {
 
 .boxes {
     background-color: #ffff;
-    min-height: 300px;
+    min-height: 350px;
 }
 
 
@@ -148,17 +148,32 @@ h1 {
 
 
   /* Quote Section */
+
+  .quote .container {
+    display: flex;
+  }
+
+
   .quote {
     background-color: #e5e7eb;
-    min-height: 200px;
+    min-height: 450px
   }
 
   .quote h2 {
-   padding: 50px;
    font-size: 36px;
    color: #1f2937;
    font-style: italic;
    font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
+   margin: 100px 0 20px 0;
+  }
+
+
+  .quotetext{
+    text-align: right;
+    color: #1f2937;
+    font-style: italic;
+    font-family: "Inter", sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
   }
   
 
