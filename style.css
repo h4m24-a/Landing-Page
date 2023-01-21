@@ -188,6 +188,7 @@ h1 {
   min-height: 400px;
   display: flex;
   align-items: center;
+  border: solid 5px purple;
 }
 
 .banner h2 {
@@ -204,7 +205,6 @@ h1 {
   color: black;
   padding: 0px 400px 40px 40px;
 }
-
 
 /* Sign-up Button */
 .signup {
@@ -243,9 +243,6 @@ h1 {
   opacity: 0.5;
 }
 
-
-
-
 /* Sign-up button 2 */
 .signup2 {
   background: #3882f6;
@@ -281,4 +278,22 @@ h1 {
 
 .signup2:active {
   opacity: 0.5;
+}
+
+/* Footer section */
+.footer {
+  border: solid 5px #ea5457;
+}
+
+.footer .container {
+  border: solid 5px blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+span.footertext {
+  font-size: 16px;
+  font-family: "Poppins" , Verdana, Geneva, Tahoma, sans-serif;
 }
