@@ -27,7 +27,6 @@ ul {
   background: #1f2937;
   color: #fff;
   height: 70px;
-  border: solid 5px palevioletred;
 }
 
 .logo {
@@ -53,7 +52,6 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  border: solid 5px orange;
 }
 
 .navbar ul {
@@ -75,7 +73,6 @@ img {
   background-color: #1f2937;
   color: #fff;
   min-height: 450px;
-  border: solid 5px hotpink;
 }
 
 .header h1 {
@@ -98,7 +95,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: solid 5px gold;
 }
 
 h1 {
@@ -116,13 +112,11 @@ h1 {
 .boxes {
   background-color: #ffff;
   min-height: 350px;
-  border: solid 5px green;
 }
 
 .boxes .container {
   display: flex;
   justify-content: space-between;
-  border: solid 5px #ea5457;
 }
 
 .box {
@@ -156,13 +150,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: solid 5px purple;
 }
 
 .quote {
   background-color: #e5e7eb;
   min-height: 500px;
-  border: solid 5px yellow;
 }
 
 .quote h2 {
@@ -189,7 +181,6 @@ h1 {
   justify-content: space-around;
   background-color: #3882f6;
   border-radius: 12px;
-  border: solid 5px #ea5457;
 }
 
 .banner {
@@ -197,7 +188,6 @@ h1 {
   min-height: 400px;
   display: flex;
   align-items: center;
-  border: solid 5px purple;
 }
 
 .banner h2 {
@@ -291,16 +281,14 @@ h1 {
 
 /* Footer section */
 .footer {
-  border: solid 5px #ea5457;
   background-color: #1f2937;
 }
 
 .footer .container {
-  border: solid 5px blue;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 110px;
+  min-height: 100px;
 }
 
 span.footertext {
