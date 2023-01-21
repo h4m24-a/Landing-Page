@@ -73,6 +73,7 @@ img {
   background-color: #1f2937;
   color: #fff;
   min-height: 450px;
+  border: solid 5px #ea5457;
 }
 
 .header h1 {
@@ -95,6 +96,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: solid 5px yellow;
 }
 
 h1 {
@@ -148,6 +150,8 @@ h1 {
 
 .quote .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .quote {
@@ -173,45 +177,36 @@ h1 {
 }
 
 /* Sign-up banner section */
-  .banner .container {
-    display: flex;
-    border: solid 3px yellow;
-    justify-content: space-evenly;
-    background-color: #3882f6;
-    border-radius: 10px;
-  }
+.banner .container {
+  display: flex;
+  border: solid 3px yellow;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
 
-  .banner {
-    border: solid 3px black;
-  }
+.banner {
+  border: solid 5px #ea5457;
+  min-height: 250px;
+}
 
-  .banner h2 {
-    color: #000000c2;
-    font-size: 18px;
-    font-family: "Poppins", Geneva, Tahoma, sans-serif;
-    border: solid 3px red;
-   
-  }
+.banner h2 {
+  color: black;
+  font-size: 18px;
+  font-family: "Poppins", Geneva, Tahoma, sans-serif;
+  border: solid 3px red;
+}
 
+.banner p {
+  border: solid 3px black;
+  font-size: 16px;
+  font-family: "Poppins", Geneva, Tahoma, sans-serif;
+}
 
-  .banner p {
-    border: solid 3px white;
-    font-size: 16px;
-    font-family: "Poppins", Geneva, Tahoma, sans-serif;
-  }
-
-  .signup2 {
-    border: solid 3px hotpink;
-  }
-
-
-
-
-
-  
-
-  
-
+.signup2 {
+  border: solid 3px hotpink;
+}
 
 /* Sign-up Button */
 .signup {
@@ -247,5 +242,47 @@ h1 {
 }
 
 .signup:active {
+  opacity: 0.5;
+}
+
+
+
+
+/* Sign-up button 2 */
+
+
+.signup2 {
+  background: #3882f6;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Poppins", Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 16px;
+  min-height: 30px;
+  outline: 0;
+  margin: 30px 0;
+  padding: 10px 35px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.signup2:hover,
+.signup2:active {
+  background-color: initial;
+  background-position: 0 0;
+}
+
+.signup2:active {
   opacity: 0.5;
 }
